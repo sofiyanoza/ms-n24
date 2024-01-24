@@ -39,6 +39,11 @@ img{
     cursor: pointer;
     border: 0;
 }
+
+.button-block{
+    display: block;
+    width: 100%;
+}
 .primary-button{
     background-color: #7296EC;
     color: #fff;
@@ -259,13 +264,30 @@ font-weight: 500;
     font-weight: 500;
     color: #000;
 }
-  
+
+/* WORLD NEWS  */
+
+.world-news{
+    width: 797px;
+}
+
+  .world-news-heading{
+    font-size: 24px;
+    font-weight: 500 ;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 20;
+  }
 .news-main-container{
     display: flex;
-    align-items:;
+    margin-bottom: 100px;
+   
+}
+.urgent-news{
+    margin-bottom: 15px;
 }
 .urgent-news-item {
-    width: 797px;
+
     margin-bottom: 10px;
     margin-right: 10px;
 }
@@ -321,18 +343,81 @@ display: flex;
     font-size: 12px;
     line-height: auto;
 }
-.main-news { 
+.world-news-button{
+    padding: 17px;
+    border: 0;
+    border-radius: 5px;
+}
+
+ /* MAIN NEWS  */
+
+ .sidebar{
+   width: 393px;
+   height: 502px;
+   margin-top: 34px;
+ 
+ }
+.main-news {
     background-color: #F6F6F6;
-    width: 393px;
-    height: 502px;
+    color: #000;
+    padding: 20px;
+    border-radius: 15px;
 }
-.main-news-class {
+.main-news-heading {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 24px;
 }
-.main-news-title {
+.main-news-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-.main-news-title-link {
+.main-news-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main-news-item:first-child{
+    padding-top: 0;
+}
+.main-news-item:last-child{
+    padding-bottom: 0;
+}
+.main-news-item:not(:last-child){
+    border-bottom: 1px solid #d2d2d2;
+}
+.main-news-item-title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.main-news-item-title-link {
+    display:  inline-block;
+    color: #000;
+    text-decoration: none;
+}
+.main-news-item-title-link:hover{
+    color: #2959CE;
+}
+.main-news-item-title-link:active{
+    opacity: 0.8;
 }
 .main-news-source-time {
+    font-size: 13px;
+    line-height: normal;
 }
-.main-news-source {
+.sidebar-item{
+    margin-top: 10px;
+}
+.sidebar-ad-link{
+    display: flex;
+}
+.img-sidebar-ad{
+    border-radius: 15px;
+    width: 393px;
+    height: 338px;
+    object-fit: cover;
 }

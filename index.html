@@ -33,7 +33,7 @@
         </ul>
         <!-- GLOBAL SEARCH ITEM  -->
         <form class="global-search-form" action="https://echo.htmlacademy.ru"  method="GET">
-            <input class="global-search-form-input" type="search" name="search" placeholder="Poisk" aria-label="Poisk" required>
+            <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
 
         </form>
 
@@ -185,7 +185,7 @@
 <!-- WORLD NEWS  -->
      <div class="container news-main-container">
       <section class="world-news">
-        <h2>В мире</h2>
+        <h2 class="world-news-heading">В мире</h2>
 
       <div class="urgent-news">
 
@@ -269,55 +269,63 @@
             </div>
         </article>
       </div>
+      <button class="world-news-button button-block" type="button">Показать ещё </button>
 
       </section>
 
       <!-- MAIN NEWS -->
-      <section class="main-news">
-        <!-- MAIN NEWS ITEM  -->
-        <div class="main-news-class">
-          <h3 class="main-news-title">
-            <a class="main-news-title-link" href="#">В Фергане создадут узбекско-пакистанский университет</a>
-          </h3>
-          <div class="main-news-source-time">
-            <span class="main-news-source">Sputnik Узбекистан </span>
-            <time datetime="14:09:00">14:09</time>
-          </div>
-         </div>
-            <!-- MIAN NEWS ITEM  -->
-        <div class="main-news-class">
-          <h3 class="main-news-title">
-            <a class="main-news-title-link" href="#">Узбекистан утвердил соглашение о содействии занятости в странах СНГ</a>
-          </h3>
-          <div class="main-news-source-time">
-            <span class="main-news-source">ИА Красная Весна </span>
-            <time datetime="10:19:00">10:19</time>
-          </div>
-
-        </div>
-          <!-- MAIN NEWS ITEM  -->
-        <div class="main-news-class">
-          <h3 class="main-news-title">
-            <a class="main-news-title-link" href="#">В Узбекистане увеличиваются очереди за автомобилями UzAuto</a>
-          </h3>
-          <div class="main-news-source-time">
-            <span class="main-news-source">Северная газета (Армянск) </span>
-            <time datetime="13:50:00">13:50</time>
-          </div>
-        </div>
-          <!-- MAIN NEWS ITEM  -->
-        <div class="main-news-class">
-          <h3 class="main-news-title">
-            <a class="main-news-title-link" href="#">Минтуризма опровергло приостановку выплат за шаги</a>
-          </h3>
-          <div class="main-news-source-time">
-            <span class="main-news-source">Sputnik Узбекистан </span>
-            <time datetime="14:32:00">14:32</time>
-          </div>
-
-        <!-- </div> -->
-
-      </section>
+      <div class="sidebar">
+        <section class=" sidebar-item main-news">
+          <h2 class="main-news-heading">Главное</h2>
+          <ul class="main-news-list">
+            <!-- main news item  -->
+            <li class="main-news-item">
+              <h3 class="main-news-item-title">
+                <a class="main-news-item-title-link" href="#">В Фергане создадут узбекско-пакистанский университет</a>
+              </h3>
+              <div class="main-news-source-time">
+                <span class="main-news-source">Sputnik Узбекистан </span>
+                <time datetime="14:09:00"> 14:09</time>
+              </div>
+            </li>
+        
+            <!-- main news item  -->
+            <li class="main-news-item">
+              <h3 class="main-news-item-title">
+                <a class="main-news-item-title-link" href="#">Узбекистан утвердил соглашение о содействии занятости в странах СНГ</a>
+              </h3>
+              <div class="main-news-source-time">
+                <span class="main-news-source">ИА Красная Весна</span>
+                <time datetime="10:19:00"> 10:19</time>
+              </div>
+            </li>
+        
+            <!-- main news item  -->
+            <li class="main-news-item">
+              <h3 class="main-news-item-title">
+                <a class="main-news-item-title-link" href="#">В Узбекистане увеличиваются очереди за автомобилями UzAuto</a>
+              </h3>
+              <div class="main-news-source-time">
+                <span class="main-news-source">Северная газета (Армянск)</span>
+                <time datetime="13:50:00"> 13:50</time>
+              </div>
+            </li>
+            <!-- main news item  -->
+            <li class="main-news-item">
+              <h3 class="main-news-item-title">
+                <a class="main-news-item-title-link" href="#">Минтуризма опровергло приостановку выплат за шаги</a>
+              </h3>
+              <div class="main-news-source-time">
+                <span class="main-news-source">Sputnik Узбекистан</span>
+                <time datetime="14:32:00"> 14:32</time>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <aside class="sidebar-item sidebar-ad">
+          <a class="sidebar-ad-link" href="" target="_blank"><img class="img-sidebar-ad" src="img/olmos house.jpg" alt="" width="393 " height="338" srcset="img/olmos house.jpg 1x, img/olmos house@2x.jpg 2x" ></a>
+        </aside>
+      </div>
      </div>
 
   </main>
