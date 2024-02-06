@@ -83,9 +83,11 @@ img{
 .site-header-logo {
     display: flex;
     background-color: #fff;
+    margin-right: 40px;
+}
+.site-logo{
     padding: 8px 6px;
     border-radius: 7px;
-    margin-right: 40px;
 }
 .currency-rates {
     display: flex;
@@ -420,4 +422,118 @@ display: flex;
     width: 393px;
     height: 338px;
     object-fit: cover;
+}
+/* SITE FOOTER  */
+.site-footer {
+    background-color: rgba(114, 151, 239, 1);
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.site-footer *:focus{
+    outline: 2px dashed #fff;
+    outline-offset: 2px;
+}
+.site-footer-top {
+    display: flex;
+
+}
+.site-footer-logo {
+    display: block;
+    color: #fff;
+   margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 8px 6px;
+    border-radius: 7px;
+    width: 264px;
+    height: 28px;
+}
+
+.site-footer-logo:hover{
+    opacity: 0.8;
+}
+.site-footer-logo:active{
+    opacity: 0.6;
+}
+
+.site-footer-cta {
+    display: flex;
+    flex-grow: 1;
+    
+ 
+}
+
+
+.site-footer-cta:not(:last-child){
+    margin-right: 100px;
+}
+.site-footer-text-warpper {
+    width: 229px;
+
+margin-right: 203px;
+}
+.site-footer-text {
+    font-family: "Rubik";
+font-size: 12px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.site-footer-cta-list {
+    list-style: none;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 24px;
+
+}
+.site-footer-cta-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+.site-footer-cta-link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.site-footer-devider {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(206, 206, 206); 
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* SITE FOOTER BOTTOM  */
+.site-footer-bottom {
+display: flex;
+align-items: center;
+justify-content: space-between;
+    margin-top: 20px;
+}
+.site-footer-bottom-heading {
+    font-size: 18px;
+    line-height: 23;
+    font-weight: 500;
+
+}
+.site-footer-socials {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+}
+.site-footer-socials-list {
+    display: flex;
+    list-style: none;
+}
+.site-footer-socials-item:not(:last-child) {
+    margin-right: 26px;
+}
+.site-footer-socials-link{
+    display: block;
 }
