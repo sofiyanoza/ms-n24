@@ -515,16 +515,9 @@ align-items: center;
 justify-content: space-between;
     margin-top: 20px;
 }
-.site-footer-bottom-heading {
-    font-size: 18px;
-    line-height: 23;
-    font-weight: 500;
-
-}
 .site-footer-socials {
     display: flex;
-    padding: 0;
-    margin: 0;
+    
     
 }
 .site-footer-socials-list {
